@@ -87,6 +87,9 @@ App will run on `http://localhost:5000`
 
 ---
 
+# DEPLOYED BACKEND URL
+## growthzibackend-production.up.railway.app
+
 ## ☁️ Deployment on Railway
 
 1. Push your code to GitHub.
