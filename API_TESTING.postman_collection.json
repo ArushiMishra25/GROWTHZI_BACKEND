@@ -89,7 +89,76 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "http://127.0.0.1:5000/api/websites/67f45fd1359b1965f6d8d96b",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic2hyZXlhMjJAZ21haWwuY29tIiwiZXhwIjoxNzQ0MTYxMjYyfQ.2j4k1NWWhvG1euqXoo5_aBMRvqA6PRAki39Byq2QDOk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business_type\":\"startup\",\r\n    \"industry\":\"ai and software technology\",\r\n    \"content\":\"hii the content is now updated this is the new content\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://growthzibackend-production.up.railway.app/api/websites/67f478bc44529dbc46ff8785",
+							"protocol": "https",
+							"host": [
+								"growthzibackend-production",
+								"up",
+								"railway",
+								"app"
+							],
+							"path": [
+								"api",
+								"websites",
+								"67f478bc44529dbc46ff8785"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "30"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Apr 2025 01:18:07 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "railway-edge"
+						},
+						{
+							"key": "X-Railway-Edge",
+							"value": "railway/europe-west4-drams3a"
+						},
+						{
+							"key": "X-Railway-Request-Id",
+							"value": "-_jzaRAfQM-c0CjEwlg_LA_2999900906"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Website updated\"\n}"
+				}
+			]
 		},
 		{
 			"name": "http://127.0.0.1:5000/api/websites/",
@@ -134,7 +203,76 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "http://127.0.0.1:5000/api/websites/",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic2hyZXlhMjJAZ21haWwuY29tIiwiZXhwIjoxNzQ0MTYxMjYyfQ.2j4k1NWWhvG1euqXoo5_aBMRvqA6PRAki39Byq2QDOk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business_type\":\"startup\",\r\n    \"industry\":\"ai and software technology\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://growthzibackend-production.up.railway.app/api/websites/",
+							"protocol": "https",
+							"host": [
+								"growthzibackend-production",
+								"up",
+								"railway",
+								"app"
+							],
+							"path": [
+								"api",
+								"websites",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "3277"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Apr 2025 01:16:30 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "railway-edge"
+						},
+						{
+							"key": "X-Railway-Edge",
+							"value": "railway/europe-west4-drams3a"
+						},
+						{
+							"key": "X-Railway-Request-Id",
+							"value": "7d1Y4RiuSYSFkCAOJ5QmWA_1655129934"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"websites\": [\n        {\n            \"_id\": \"67f478bc44529dbc46ff8785\",\n            \"user_id\": \"shreya22@gmail.com\",\n            \"business_type\": \"startup\",\n            \"industry\": \"software and ai\",\n            \"content\": \"**Option 1: Short & Punchy (For Website Header or Social Media)**\\n\\n> **[Startup Name]:** Powering the future with intelligent solutions. We build software and AI to transform your business.\\n\\n**Option 2: Problem/Solution Focused (For Landing Page or Blog Intro)**\\n\\n> **The Challenge:** In today's competitive landscape, staying ahead requires more than just hard work. You need intelligent insights and streamlined operations.\\n>\\n> **Our Solution:** [Startup Name] develops cutting-edge software and AI solutions to optimize your processes, unlock hidden potential, and drive sustainable growth. We empower you to make data-driven decisions and achieve unparalleled efficiency.\\n\\n**Option 3: Industry-Specific (Adapt to Target Audience)**\\n\\n> **(Example: For Healthcare AI Startup)**\\n>\\n> **[Startup Name]:** Transforming Healthcare Through AI. We deliver intelligent solutions for [Specific Problem, e.g., faster diagnosis, personalized treatment plans] to improve patient outcomes and streamline clinical workflows.\\n\\n**Option 4: Benefit-Driven (For Sales Material or Pitch Deck)**\\n\\n> **[Startup Name]:** Unlock exponential growth with our AI-powered software. We deliver:\\n> *   **Increased Efficiency:** Automate tasks and optimize workflows.\\n> *   **Data-Driven Insights:** Make informed decisions with real-time analytics.\\n> *   **Competitive Advantage:** Stay ahead of the curve with cutting-edge technology.\\n\\n**Option 5: Focus on Innovation (For About Us Page)**\\n\\n> **[Startup Name] is at the forefront of software and AI innovation.** We're a team of passionate engineers, data scientists, and industry experts dedicated to building transformative solutions that solve real-world problems. We're committed to pushing the boundaries of what's possible and delivering exceptional value to our clients.\\n\\n**Option 6: Concise and Direct (For Elevator Pitch)**\\n\\n> **[Startup Name] provides AI-powered software solutions for [Target Industry] that help them [Key Benefit, e.g., increase revenue, reduce costs, improve efficiency].**\\n\\n**Option 7: Modern and Disruptive (For Tech-Forward Audience)**\\n\\n> **[Startup Name]: Disrupting industries with intelligent software and AI.** We're building the future, one algorithm at a time.\\n\\n**Option 8: Value Proposition (For Website or Marketing)**\\n\\n> **[Startup Name]:** Your Partner in AI-Powered Transformation. We provide the software and expertise you need to leverage the power of artificial intelligence to achieve your business goals.\\n\\n**Option 9: Strong Call to Action (For Landing Page)**\\n\\n> **Ready to transform your business with the power of AI?** Contact us today to schedule a demo and discover how [Startup Name] can help you achieve unprecedented growth and efficiency.\\n\\n**Option 10: Highlighting Expertise (For Content Marketing/Blog)**\\n\\n> **[Startup Name] is a leading expert in developing AI-driven solutions for [Specific Industry].** Our team combines deep industry knowledge with cutting-edge technological expertise to deliver innovative and impactful results.\\n\",\n            \"created_at\": {\n                \"$date\": \"2025-04-08T01:15:40.722Z\"\n            }\n        }\n    ]\n}"
+				}
+			]
 		},
 		{
 			"name": "http://127.0.0.1:5000/api/websites/generate",
@@ -176,7 +314,76 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "http://127.0.0.1:5000/api/websites/generate",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic2hyZXlhMjJAZ21haWwuY29tIiwiZXhwIjoxNzQ0MTYxMjYyfQ.2j4k1NWWhvG1euqXoo5_aBMRvqA6PRAki39Byq2QDOk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"business_type\":\"startup\",\r\n    \"industry\":\"software and ai\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://growthzibackend-production.up.railway.app/api/websites/generate",
+							"protocol": "https",
+							"host": [
+								"growthzibackend-production",
+								"up",
+								"railway",
+								"app"
+							],
+							"path": [
+								"api",
+								"websites",
+								"generate"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "3306"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Apr 2025 01:15:40 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "railway-edge"
+						},
+						{
+							"key": "X-Railway-Edge",
+							"value": "railway/europe-west4-drams3a"
+						},
+						{
+							"key": "X-Railway-Request-Id",
+							"value": "m7ISBxNMTkWvaIkoNs9Y2g_1655129934"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Website generated\",\n    \"website\": {\n        \"user_id\": \"shreya22@gmail.com\",\n        \"business_type\": \"startup\",\n        \"industry\": \"software and ai\",\n        \"content\": \"**Option 1: Short & Punchy (For Website Header or Social Media)**\\n\\n> **[Startup Name]:** Powering the future with intelligent solutions. We build software and AI to transform your business.\\n\\n**Option 2: Problem/Solution Focused (For Landing Page or Blog Intro)**\\n\\n> **The Challenge:** In today's competitive landscape, staying ahead requires more than just hard work. You need intelligent insights and streamlined operations.\\n>\\n> **Our Solution:** [Startup Name] develops cutting-edge software and AI solutions to optimize your processes, unlock hidden potential, and drive sustainable growth. We empower you to make data-driven decisions and achieve unparalleled efficiency.\\n\\n**Option 3: Industry-Specific (Adapt to Target Audience)**\\n\\n> **(Example: For Healthcare AI Startup)**\\n>\\n> **[Startup Name]:** Transforming Healthcare Through AI. We deliver intelligent solutions for [Specific Problem, e.g., faster diagnosis, personalized treatment plans] to improve patient outcomes and streamline clinical workflows.\\n\\n**Option 4: Benefit-Driven (For Sales Material or Pitch Deck)**\\n\\n> **[Startup Name]:** Unlock exponential growth with our AI-powered software. We deliver:\\n> *   **Increased Efficiency:** Automate tasks and optimize workflows.\\n> *   **Data-Driven Insights:** Make informed decisions with real-time analytics.\\n> *   **Competitive Advantage:** Stay ahead of the curve with cutting-edge technology.\\n\\n**Option 5: Focus on Innovation (For About Us Page)**\\n\\n> **[Startup Name] is at the forefront of software and AI innovation.** We're a team of passionate engineers, data scientists, and industry experts dedicated to building transformative solutions that solve real-world problems. We're committed to pushing the boundaries of what's possible and delivering exceptional value to our clients.\\n\\n**Option 6: Concise and Direct (For Elevator Pitch)**\\n\\n> **[Startup Name] provides AI-powered software solutions for [Target Industry] that help them [Key Benefit, e.g., increase revenue, reduce costs, improve efficiency].**\\n\\n**Option 7: Modern and Disruptive (For Tech-Forward Audience)**\\n\\n> **[Startup Name]: Disrupting industries with intelligent software and AI.** We're building the future, one algorithm at a time.\\n\\n**Option 8: Value Proposition (For Website or Marketing)**\\n\\n> **[Startup Name]:** Your Partner in AI-Powered Transformation. We provide the software and expertise you need to leverage the power of artificial intelligence to achieve your business goals.\\n\\n**Option 9: Strong Call to Action (For Landing Page)**\\n\\n> **Ready to transform your business with the power of AI?** Contact us today to schedule a demo and discover how [Startup Name] can help you achieve unprecedented growth and efficiency.\\n\\n**Option 10: Highlighting Expertise (For Content Marketing/Blog)**\\n\\n> **[Startup Name] is a leading expert in developing AI-driven solutions for [Specific Industry].** Our team combines deep industry knowledge with cutting-edge technological expertise to deliver innovative and impactful results.\\n\",\n        \"created_at\": {\n            \"$date\": \"2025-04-08T01:15:40.722Z\"\n        },\n        \"_id\": \"67f478bc44529dbc46ff8785\"\n    }\n}"
+				}
+			]
 		},
 		{
 			"name": "http://127.0.0.1:5000/api/auth/login",
@@ -194,7 +401,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"Arushi@gmail.com\",\r\n    \"password\":\"12345\"\r\n}",
+					"raw": "{\r\n    \"email\":\"shreya22@gmail.com\",\r\n    \"password\":\"12345\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -202,15 +409,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:5000/api/auth/login",
-					"protocol": "http",
+					"raw": "https://growthzibackend-production.up.railway.app/api/auth/login",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"growthzibackend-production",
+						"up",
+						"railway",
+						"app"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"auth",
@@ -218,10 +424,79 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "http://127.0.0.1:5000/api/auth/login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"shreya22@gmail.com\",\r\n    \"password\":\"12345\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://growthzibackend-production.up.railway.app/api/auth/login",
+							"protocol": "https",
+							"host": [
+								"growthzibackend-production",
+								"up",
+								"railway",
+								"app"
+							],
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "191"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Apr 2025 01:14:22 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "railway-edge"
+						},
+						{
+							"key": "X-Railway-Edge",
+							"value": "railway/europe-west4-drams3a"
+						},
+						{
+							"key": "X-Railway-Request-Id",
+							"value": "g61iA-YCTi63Da9iRGGLdA_2999900906"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Login successful\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic2hyZXlhMjJAZ21haWwuY29tIiwiZXhwIjoxNzQ0MTYxMjYyfQ.2j4k1NWWhvG1euqXoo5_aBMRvqA6PRAki39Byq2QDOk\"\n}"
+				}
+			]
 		},
 		{
-			"name": "http://127.0.0.1:5000/api/auth/signup",
+			"name": "growthzibackend-production.up.railway.app/api/auth/signup",
 			"request": {
 				"auth": {
 					"type": "noauth"
@@ -236,7 +511,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"Arushi@gmail.com\",\r\n    \"password\":\"12345\"\r\n}",
+					"raw": "{\r\n    \"email\":\"shreya22@gmail.com\",\r\n    \"password\":\"12345\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -244,15 +519,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:5000/api/auth/signup",
-					"protocol": "http",
+					"raw": "https://growthzibackend-production.up.railway.app/api/auth/signup",
+					"protocol": "https",
 					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
+						"growthzibackend-production",
+						"up",
+						"railway",
+						"app"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"auth",
@@ -260,7 +534,76 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "http://127.0.0.1:5000/api/auth/signup",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"shreya22@gmail.com\",\r\n    \"password\":\"12345\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://growthzibackend-production.up.railway.app/api/auth/signup",
+							"protocol": "https",
+							"host": [
+								"growthzibackend-production",
+								"up",
+								"railway",
+								"app"
+							],
+							"path": [
+								"api",
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "192"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Apr 2025 01:12:52 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "railway-edge"
+						},
+						{
+							"key": "X-Railway-Edge",
+							"value": "railway/europe-west4-drams3a"
+						},
+						{
+							"key": "X-Railway-Request-Id",
+							"value": "-045draYSSiJSMGXhE_FWg_2999900906"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Signup successful\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoic2hyZXlhMjJAZ21haWwuY29tIiwiZXhwIjoxNzQ0MTYxMTcyfQ.bqNsV6qQT4BNz-UOgOgGr-py7KDNZC3wUy9glHq1IGY\"\n}"
+				}
+			]
 		}
 	]
 }
