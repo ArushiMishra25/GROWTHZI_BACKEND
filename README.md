@@ -53,7 +53,7 @@ python run.py
 
 ```
 
-**DEPLOYED BACKEND URL**=growthzibackend-production.up.railway.app
+**DEPLOYED BACKEND URL**=```bash growthzibackend-production.up.railway.app ```
 
 
 
