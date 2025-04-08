@@ -5,7 +5,7 @@ from flask_cors import CORS
 
 def create_app():
     app = Flask(__name__)
-    CORS(app, origins=["http://localhost:5173", "https://grwothzi-frontend-testing-git-main-arushimishra25s-projects.vercel.app/"], supports_credentials=True)
+    CORS(app, origins=["http://localhost:5173", "https://grwothzi-frontend-testing.vercel.app"], supports_credentials=True)
     app.config.from_object(Config)
     app.config["MONGO_URI"] = Config.MONGO_URI
     app.config["SECRET_KEY"] = Config.SECRET_KEY
