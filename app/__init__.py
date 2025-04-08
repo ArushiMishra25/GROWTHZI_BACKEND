@@ -1,9 +1,11 @@
 from flask import Flask
 from .database import init_db
 from .config import Config
+from flask_cors import CORS
 
 def create_app():
     app = Flask(__name__)
+    CORS(app, origins=["http://localhost:5173", "https://yourfrontenddomain.com"], supports_credentials=True)
     app.config.from_object(Config)
     app.config["MONGO_URI"] = Config.MONGO_URI
     app.config["SECRET_KEY"] = Config.SECRET_KEY
